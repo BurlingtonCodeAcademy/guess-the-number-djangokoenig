@@ -15,4 +15,23 @@ async function start() {
   console.log('You entered: ' + secretNumber);
   // Now try and complete the program.
   process.exit();
-}
+
+  async function start() {
+  while (1) {
+      let answer = await ask ("Are we done? ")
+      answer = answer.ToLowerCase
+      if (answer.includes('yes') {done =true}
+    }
+    console.log('You are done!');
+    process.exit();
+    // Now try and complete the program.
+  
+    async function start() {
+    let done = false; 
+      while (!done) {
+        let answer = await ask ("Are we done? ")
+          answer = answerToLowerCase(answer)
+          if (answer.includes('yes') {done =true}
+        }
+        console.log('You are done!');
+        process.exit();
